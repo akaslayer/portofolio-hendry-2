@@ -125,7 +125,7 @@ const Hero: React.FC = (): JSX.Element => {
             <h2 className="text-5xl lg:text-6xl font-bold">Developer</h2>
           </div>
           <p className='text-base'>I&apos;m Hendry Tjahaja Surijanto Putra, a graduate from Multimedia Nusantara University with a major in Informatics. I have completed a bootcamp in Purwadhika and am proficient in backend development using programming languages like Java and JavaScript. I can also handle frontend development tasks. I am focused on getting the job done, enhancing my skills, and gaining work experience. I am committed to the tasks given and adaptable to new environments.</p>
-          <a href="/docs/CV_Hendry.pdf" download>
+          <a href="/docs/CV_Hendry.pdf" target="_blank" rel="noopener noreferrer" download>
             <Button className='text-white w-fit p-6 text-lg bg-blue-600 mt-2 hover:bg-blue-400 flex items-center'>
               <FaFileArchive /> Download CV
             </Button>
