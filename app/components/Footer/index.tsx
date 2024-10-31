@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-5">
           <div className="flex flex-col gap-4 ">
             <h1 className='text-6xl font-semibold'>Have a project in mind?</h1>
-            <h1 className='text-6xl font-semibold'>Let’s get to work.</h1>
+            <h1 className='text-6xl font-semibold'>Let&apos;s get to work.</h1>
           </div>
           <Image src={work} alt='Work' className='max-w-lg lg:max-w-2xl justify-center items-center self-center' />
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-2 text-white font-semibold ">
             <MdEmail className='text-white w-12 h-12' />
-            <h2 className='text-base'>I'm here to help.</h2>
+            <h2 className='text-base'>I&apos;m here to help.</h2>
             <h2 className='text-lg'>hendrysurijanto123@gmail.com</h2>
           </div>
           <div className="flex flex-col gap-2 text-white font-semibold ">
